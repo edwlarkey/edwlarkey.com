@@ -1,3 +1,18 @@
-papers
-github.css
+# Ignore docs files
+_gh_pages
+_site
+public/
 
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
