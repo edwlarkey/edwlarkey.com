@@ -17,8 +17,8 @@ theme = "hugo-creative-portfolio-theme"
   sidebarAbout = [
     "Ed in the cloud.",
     "",
-    "I am an Infrastructure Engineer at Hudl. I like Linux and Woodworking.",
-    "Originally from Kansas City, currently based in Omaha."
+    "I am a Site Reliability Engineer at Hudl. I like Linux and Woodworking.",
+    "Originally from Kansas City, currently in Omaha."
   ]
   # Contact page
      # Since this template is static, the contact form uses www.formspree.io as a
