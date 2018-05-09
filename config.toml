@@ -1,4 +1,4 @@
-baseURL = "http://edwlarkey.com/"
+baseURL = "https://edwlarkey.com/"
 languageCode = "en-us"
 title = "Edward Larkey"
 theme = "hugo-creative-portfolio-theme"
