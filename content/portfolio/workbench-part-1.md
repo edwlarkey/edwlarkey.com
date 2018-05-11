@@ -5,8 +5,6 @@ image = "img/portfolio/workbench-1-5.jpg"
 showonlyimage = true
 date = "2017-11-30T19:23:16-06:00"
 weight = 10
-categories = ["woodworking"]
-tags = ["workbench"]
 +++
 
 Workbench Project - Part 1
