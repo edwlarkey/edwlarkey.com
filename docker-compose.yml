@@ -1,0 +1,10 @@
+version: '2'
+services:
+  nginx:
+    image: edwlarkey/edwlarkey.com
+    restart: always
+    labels:
+      - traefik.backend=edwlarkey.com
+      - traefik.port=80
+      - traefik.frontend.rule=Host:edwlarkey.com
+      - traefik.enable=true
