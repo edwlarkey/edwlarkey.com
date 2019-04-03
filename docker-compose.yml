@@ -8,3 +8,9 @@ services:
       - traefik.port=80
       - traefik.frontend.rule=Host:edwlarkey.com
       - traefik.enable=true
+      - traefik.docker.network=web
+    networks:
+      - web
+networks:
+  web:
+    external: true
