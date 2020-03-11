@@ -4,11 +4,13 @@ services:
     image: edwlarkey/edwlarkey.com
     restart: always
     labels:
-      - traefik.backend=edwlarkey.com
-      - traefik.port=80
-      - traefik.frontend.rule=Host:edwlarkey.com
-      - traefik.enable=true
-      - traefik.docker.network=web
+      - "traefik.http.routers.edwlarkey.rule=Host(`edwlarkey.com`)"
+      - "traefik.http.routers.edwlarkey.entrypoints=websecure"
+      - "traefik.http.routers.edwlarkey.service=edwlarkey"
+      - "traefik.http.routers.edwlarkey.tls"
+      - "traefik.http.services.edwlarkey.loadbalancer.server.port=80"
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
     networks:
       - web
 networks:

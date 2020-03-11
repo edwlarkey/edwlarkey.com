@@ -17,7 +17,7 @@ theme = "hugo-creative-portfolio-theme"
   sidebarAbout = [
     "Ed in the cloud.",
     "",
-    "I am a Site Reliability Engineer at Hudl. I like Linux and Woodworking.",
+    "I like Linux and Woodworking.",
     "Originally from Kansas City, currently in Omaha."
   ]
   # Contact page
