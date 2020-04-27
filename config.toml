@@ -1,6 +1,6 @@
 baseurl                 = "https://edwlarkey.com/"
 DefaultContentLanguage  = "en"
-title                   = "Edward Larkey"
+title                   = "Ed in The Cloud"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
 paginate                = 3
@@ -32,7 +32,7 @@ disableLanguages        = [""]
 
   [params.meta]
     # Sets the meta tag description
-    description         = "Edward Larkey"
+    description         = "Ed in The Cloud"
     # Sets the meta tag author
     author              = "Edward Larkey"
     # If you would like to add more comprehensive favicon support passed root
@@ -57,8 +57,8 @@ disableLanguages        = [""]
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Ed in the Cloud"
-    paragraph             = "Edward Larkey"
+    header                = "Edward Larkey"
+    paragraph             = ""
     rssIntro              = true
     socialIntro           = true
     # You may not want to display a long intro above content in the
@@ -72,12 +72,12 @@ disableLanguages        = [""]
     [params.intro.pic]
       src                 = "/img/profile.jpg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
-      shape               = "circle"
+      shape               = "hexagon"
       width               = "150"
       alt                 = "Edward Larkey"
 
   [params.sidebar]
-    about               = "I'm an Infrastructure Engineer at HackerOne"
+    about               = "I'm an Infrastructure Engineer at HackerOne. Omaha, NE"
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar
