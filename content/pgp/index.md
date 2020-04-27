@@ -1,7 +1,7 @@
 +++
 title = "PGP Key"
-draft = false
-showonlyimage = false
+tags = ["pgp", "encryption"]
+categories = ["pgp"]
 date = "2017-11-30T15:15:16-05:00"
 +++
 
