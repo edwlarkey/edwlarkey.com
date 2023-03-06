@@ -2,6 +2,7 @@
 _gh_pages
 _site
 public/
+site.tar.gz
 
 *.diff
 *.err
