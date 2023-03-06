@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "dvsm";
+  src: url("/font/DejaVuSansMono.woff2");
+  font-display: block;
+}
+
+body {
+  font-family: dvsm, monospace;
+}
+
+* {
+  font-size: 16px;
+}
+
+code {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 85%;
+}

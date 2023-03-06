@@ -1,0 +1,43 @@
+[[entries]]
+title = "info"
+
+  [[entries.entries]]
+  title = "Edward"
+
+  [[entries.entries]]
+  title = "GitHub"
+  url = "https://github.com/edwlarkey"
+
+  [[entries.entries]]
+  title = "SourceHut"
+  url = "https://git.sr.ht/~edwlarkey"
+
+  [[entries.entries]]
+  title = "LinkedIn"
+  url = "https://linkedin.com/edwlarkey"
+
+[[entries]]
+title = "all posts"
+
+  [entries.post_list]
+  limit = 5
+  show_more = true
+  show_more_text = "See archive..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "posts by category"
+
+  [[entries.entries]]
+  title = "LinkedIn"
+  url = "https://linkedin.com/edwlarkey"
+
+  [entries.post_list]
+  section = "woodworking"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "rss"
+url = "index.xml"
