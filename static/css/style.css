@@ -81,3 +81,9 @@ tfoot,
 tr:nth-child(even) {
   background: #eee;
 }
+
+/* Resume */
+
+.minipage {
+  padding-left: 25px;
+}

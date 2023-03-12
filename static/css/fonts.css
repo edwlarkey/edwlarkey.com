@@ -8,9 +8,9 @@ body {
   font-family: dvsm, monospace;
 }
 
-* {
-  font-size: 16px;
-}
+/* * { */
+/*   min-font-size: 16px; */
+/* } */
 
 code {
   font-family: "Lucida Console", Monaco, monospace;
