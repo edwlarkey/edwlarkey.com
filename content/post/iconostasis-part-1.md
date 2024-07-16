@@ -35,6 +35,9 @@ the two side columns with two 2x4s stacked on top of one another and screwed
 together to add some rigidity and provide the top of the door frame. A top rail
 was attached to the face of the main icon sections to tie everything together.
 
+![Shell Profile](/img/blog/ShellProfile.jpg "Iconostasis Shell")
+![Wings without Doors](/img/blog/WingsNoDoors.jpg "Iconostasis Wings without doors")
+
 The archangel doors were pretty narrow, so in our new church we wanted to make
 them wider so it is more comfortable for Father to walk through them with
 vestments on and holding the gifts. I laminated some oak boards together to
