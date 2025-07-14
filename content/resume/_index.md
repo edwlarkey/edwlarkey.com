@@ -1,4 +1,4 @@
-# Edward Larkey
+# Edward Larkey's Resume
 
 ## Technical Summary
 
@@ -6,28 +6,8 @@ Languages
 Go, Python, Bash, PHP, SQL, LaTeX
 
 Technologies  
-AWS, Kubernetes, Grafana, Loki, Mimir, Wireguard, Tekton, Ansible,
-Terraform, aws-cdk, Docker, Git, Vim
-
-Operating Systems  
-Linux, Mac OS X
-
-## Projects
-
-### robin-deploy (Robin)
-
-- Wrote custom deployment program in Go that takes a json config file
-  (secret path, env vars, resource requests/limits, etc), syncs secrets
-  from AWS Parameter Store or Secrets Manager, and directly updates
-  kubernetes resources like deployments and services.
-
-### HAProxy Implementation (Hudl)
-
-- Set up HAProxy cluster for our internal users and systems access and
-  manage resources in EC2 classic, our internal VPC, and our production
-  VPC.
-- Service discovery with DNS SRV records and Route53 Auto-Naming/AWS
-  CloudMap.
+AWS, Kubernetes, Grafana, Loki, Mimir, Github Actions, Wireguard,
+Tekton, Ansible, Terraform, aws-cdk, Docker, Git
 
 ## Work Experience
 
@@ -39,49 +19,65 @@ Linux, Mac OS X
 
 - Senior DevOps Engineer: June 2021 - February 2023
 
-  - Managed production and development systems in AWS (EKS, EC2,
-    ElastiCache, S3, IAM, RDS, etc.)
-  - Developed new deployment pipeline for Kubernetes with a custom Go
-    program and SNS
-  - Implemented and migrated to Okta for SSO (AWS SSO, OIDC at ALB for
-    non SAML apps)
-  - Migrated CI/CD for infrastructure to GitHub Actions
+  - Led infrastructure strategy and architectural decisions for
+    microservices across multiple AWS regions
+  - Architected and implemented custom Go deployment program
+    (robin-deploy) that streamlined deployments and enabled self service
+    deployments
+  - Led cross-functional collaboration with product teams to optimize
+    infrastructure costs through rightsizing
+  - Designed and implemented comprehensive observability platform using
+    Grafana, Loki, and Mimir, improving monitoring and troubleshooting
+    capabilities
+  - Migrated CI/CD infrastructure to GitHub Actions for the
+    infrastructure team, providing repeatable and reliable builds
+  - Led strategic initiatives including Okta SSO migration and AWS SSO
+    implementation, improving security posture and user experience
 
 ### HackerOne - San Francisco, CA - Remote in Omaha, NE
 
 - Infrastructure Engineer II: September 2019 - June 2021
 
-  - Managed production and development systems in AWS (EC2, ElastiCache,
-    S3, IAM, RDS, etc.)
-  - Planned and rolled out new infrastructure in AWS in accordance with
-    compliance and security policies
-  - Mentored co-workers in leveling up AWS and infrastructure skills
+  - Managed production infrastructure supporting users across services
+    in AWS, ensuring high availability
+  - Helped implement compliance initiatives for SOC 2 and GDPR
+  - Developed infrastructure automation reducing manual deployment tasks
+    and improving deployment reliability
+  - Mentored engineers in AWS best practices and infrastructure
+    automation
 
 ### Hudl - Omaha, NE
 
 - Infrastructure Engineer II: July 2017 - September 2019
 
-  - Managed production and development systems in AWS (EC2, ECS,
-    ElastiCache, S3, IAM, RDS, etc.)
-  - Mentored co-workers in leveling up AWS and infrastructure skills
+  - Managed production infrastructure across multiple services in AWS
+  - Architected and implemented HAProxy cluster with service discovery
+    using DNS SRV records
+  - Migrated from EC2 Classic to VPC across production and development
+    environments
+  - Mentored engineers in AWS and infrastructure skills
 
 ### Cerner - Kansas City, MO
 
 - System Engineer: August 2016 - July 2017
 
-  - Developed and maintained Chef cookbooks with peer review for 4
-    environments/regions
-  - Deployed code to production and implemented Rundeck to automate
-    those deployments
+  - Managed healthcare infrastructure supporting users across
+    environments/regions with strict HIPAA compliance requirements
+  - Developed and maintained Chef cookbooks with peer review process,
+    reducing configuration drift and improving deployment consistency
 
 ### Builder Designs - Olathe, KS
 
 - PHP Developer & Linux System Administrator: September 2014 - August
   2016
 
-  - Developed new websites and new products to client specifications
-  - Implemented migration to DigitalOcean for all new hosting,
-    configuration management with Ansible
+  - Led migration from traditional hosting to DigitalOcean cloud
+    infrastructure, reducing hosting costs and improving performance
+  - Implemented configuration management with Ansible, enabling
+    automated server provisioning and reducing deployment time
+  - Developed custom websites and products for clients, improving client
+    satisfaction and reducing development time through standardized
+    processes
 
 ## Education
 
