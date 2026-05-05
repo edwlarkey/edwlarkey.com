@@ -11,7 +11,7 @@ aliases = ["orthodox-pilgrimage-site"]
 
 # Building a Modern Guide to Orthodox Pilgrimage in North America
 
-Chris is risen! Христосъ воскресе!
+Christ is risen! Христосъ воскресе!
 
 In the Orthodox tradition, a pilgrimage is more than just a trip; it is a
 physical journey toward the spiritual. Across North America, we are blessed
