@@ -5,7 +5,7 @@ title: Home
 ## Edward Larkey
 
 - Principal DevOps Engineer @ Robin
-- edwlarkey@gmail.com
+- edwlarkey @ gmail dot com
 - [GitHub](https://github.com/edwlarkey)
 - [SourceHut](https://git.sr.ht/~edwlarkey)
 - [LinkedIn](https://www.linkedin.com/in/edwlarkey)
