@@ -16,7 +16,7 @@ footnotereturnlinkcontents = "↩"
 
 [params]
   description = "Ed in the cloud"
-  footer = "&copy; [Edward Larkey](https://edwlarkey.com) {Year} | [GitHub](https://github.com/edwlarkey) | [SourceHut](https://git.sr.ht/&#126;edwlarkey) | [LinkedIn](https://www.linkedin.com/in/edwlarkey)"
+  footer = "&copy; [Edward Larkey](https://edwlarkey.com) {Year} | [GitHub](https://github.com/edwlarkey) | [LinkedIn](https://www.linkedin.com/in/edwlarkey)"
 
 [pagination]
   pageSize = 3
